@@ -1,3 +1,3 @@
 <h3>...The Page is in condtruction</h3>
 
-<img  src='./this.gif'/>
+<img width='400' src='./this.gif'/>
