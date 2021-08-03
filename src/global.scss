@@ -1,0 +1,13 @@
+$yellow-color: rgb(255,187,0);
+$white-color: #fff;
+$dark-color: rgb(24,24,24);
+
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ background-color: $white-color;
+}
