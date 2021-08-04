@@ -1,9 +1,10 @@
 import './global.scss';
+import Home from './components/Home/Home';
 
 function App() {
   return (
     <div className="App">
-      Yammie Shoppers
+      <Home/>
     </div>
   );
 }
