@@ -1,8 +1,8 @@
 import React from 'react';
-import './FirstHome.scss';
+import './FirstComponent.scss';
 
 
-const FirstHome = () => {
+const FirstComponent = () => {
   
   // items
 const items = [
@@ -103,4 +103,4 @@ return (
 )
 }
 
-export default FirstHome
+export default FirstComponent;

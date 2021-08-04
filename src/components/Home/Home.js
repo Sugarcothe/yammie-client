@@ -1,11 +1,13 @@
 import React from 'react'
-import FirstHome from "./FirstComponent.js/FirstHome"
+import FirstComponent from "./FirstComponent/FirstComponent"
+import SecondComponent from "./SecondComponent/SecondComponent"
 import './Home.scss'
 
 const Home = () => {
  return (
   <div className='home'>
-   <FirstHome/>
+   <FirstComponent/>
+   <SecondComponent />
   </div>
  )
 }

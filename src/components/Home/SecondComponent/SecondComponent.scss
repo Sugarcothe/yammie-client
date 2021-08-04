@@ -1,0 +1,23 @@
+@import '../../../global.scss';
+
+.container2 {
+ margin: 3rem;
+ padding: 3rem;
+ background-color: #fff;
+ border: $yellow-color 2px solid;
+
+ .sect {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  
+  
+  .image-cover {
+   width: 200px;
+   height: auto;
+   display: flex;
+   flex-direction: row;
+   
+  }
+ }
+}

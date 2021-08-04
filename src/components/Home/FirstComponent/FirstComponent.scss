@@ -1,7 +1,7 @@
 @import '../../../global.scss';
 
 .container {
- padding: 3rem;
+ padding: 2rem;
  align-items: center;
  align-content: center;
  justify-content: center;
@@ -20,6 +20,7 @@
    transition: 0.3s;
    padding: 1.7rem;
    margin-right: 2rem;
+   min-width: 300px;
 
    .items {
     display: flex;
@@ -42,7 +43,7 @@
   .slide-card {
 
    .ad-covers{
-   width: 46rem;
+   width: 45rem;
    margin-right: 2rem;
 
    img {
