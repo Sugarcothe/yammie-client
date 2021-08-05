@@ -1,23 +1,21 @@
 @import '../../../global.scss';
 
 .container2 {
- margin: 3rem;
- padding: 3rem;
+ display: flex;
+ margin: 1rem;
+ padding: 2rem;
  background-color: #fff;
- border: $yellow-color 2px solid;
+ border: $yellow-color 5px solid;
+ border-radius: 5px;
 
  .sect {
   display: flex;
   flex-direction: column;
-  border-radius: 5px;
-  
-  
+  flex-wrap: wrap;
+
   .image-cover {
-   width: 200px;
-   height: auto;
    display: flex;
-   flex-direction: row;
-   
+   flex-direction: column;
   }
  }
 }

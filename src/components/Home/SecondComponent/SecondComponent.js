@@ -4,27 +4,6 @@ import './SecondComponent.scss'
 const SecondComponent = () => {
 const state = [
   {
-  img: 'assets/1.png',
-  },
-  {
-  img: 'assets/2.png',
-  },
-  {
-  img: 'assets/3.png',
-  },
-  {
-  img: 'assets/4.png',
-  },
-  {
-  img: 'assets/5.png',
-  },
-  {
-  img: 'assets/6.png',
-  },
-  {
-  img: 'assets/7.png',
-  },
-  {
   img: 'assets/9.png',
   },
   {
@@ -45,6 +24,9 @@ const state = [
   {
   img: 'assets/15.png',
   },
+  {
+  img: 'assets/15.png',
+  },
 ]
 
 
@@ -53,7 +35,7 @@ return (
 
   {state.map((d) => (
     <div className='sect'>
-      <div className='cover'>
+      <div className='image-cover'>
         <img src={d.img} alt='welcome'/>
       </div>
     </div>
