@@ -4,9 +4,6 @@ import './SecondComponent.scss'
 const SecondComponent = () => {
 const state = [
   {
-  img: 'assets/9.png',
-  },
-  {
   img: 'assets/10.png',
   },
   {
@@ -25,7 +22,7 @@ const state = [
   img: 'assets/15.png',
   },
   {
-  img: 'assets/15.png',
+  img: 'assets/1.png',
   },
 ]
 
